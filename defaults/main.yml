@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-mongodb
+
+mongodb_bind_ip: 127.0.0.1
+mongodb_port: 27017
