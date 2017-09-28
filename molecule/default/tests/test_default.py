@@ -10,6 +10,7 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
 def test_mongodb_is_installed(host):
     package = host.package('mongodb-org')
     assert package.is_installed
+    assert package.version.startswith('3.4.7')
 
 
 # check if MongoDB is enabled and running
