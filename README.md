@@ -1,5 +1,5 @@
-Ansible Role: MongoDB
-=========
+ansible-role-mongodb
+====================
 
 An Ansible Role that installs MongoDB (https://www.mongodb.com).
 
