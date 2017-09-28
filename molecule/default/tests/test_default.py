@@ -15,9 +15,9 @@ def test_mongodb_is_installed(host):
 
 # check if MongoDB is enabled and running
 def test_mongod_is_running(host):
-    mongo = host.service('mongod')
-    assert mongo.is_running
-    assert mongo.is_enabled
+    mongod = host.service('mongod')
+    assert mongod.is_running
+    assert mongod.is_enabled
 
 
 # check if configuration file contains the required line
